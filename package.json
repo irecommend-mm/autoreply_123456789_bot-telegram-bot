@@ -1,0 +1,26 @@
+{
+  "name": "autoreply_123456789_bot-telegram-bot",
+  "version": "1.0.0",
+  "description": "Telegram Bot CRM for autoreply_123456789_bot",
+  "main": "netlify/functions/telegram-webhook.js",
+  "scripts": {
+    "build": "vite build",
+    "dev": "vite",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@supabase/supabase-js": "^2.39.0",
+    "@google/generative-ai": "^0.2.1",
+    "axios": "^1.6.0"
+  },
+  "devDependencies": {
+    "@types/react": "^18.2.43",
+    "@types/react-dom": "^18.2.17",
+    "@vitejs/plugin-react": "^4.2.1",
+    "autoprefixer": "^10.4.16",
+    "postcss": "^8.4.32",
+    "tailwindcss": "^3.3.6",
+    "typescript": "^5.2.2",
+    "vite": "^5.0.8"
+  }
+}
